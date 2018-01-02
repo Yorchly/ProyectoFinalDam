@@ -1,0 +1,38 @@
+header {  
+  background-color: #cc33cc;
+}
+
+article {  
+  background-color: #ffccff;
+}
+
+aside {  
+  background-color: #ccffff;
+}
+
+section {  
+  background-color: #99ff99;  
+  display: block;
+}
+
+#copy {  
+  background-color: #ffcccc;
+}
+
+#social {  
+  background-color: #ffcc99;
+}
+
+footer {  
+  background-color: #ccccff;
+}
+
+#logo {  
+  background-color: #ffcccc;
+}
+
+nav {  
+  background-color: #ffcc99;  
+  display: block;
+}
+

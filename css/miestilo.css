@@ -1,0 +1,46 @@
+#piel{
+	width: 700px;
+  margin: 10px auto;
+  background-color: #F1BD73;
+  padding: 5px;
+  border: 4px solid #E9931A;
+  border-radius: 10px;
+}
+
+#miPelicula{
+	display: block;
+  margin: 10px auto;
+}
+
+nav{
+	height: 30px;
+  width: 640px;
+  margin: 5px auto;
+}
+
+#botones{
+	float: left;
+  width: 100px;
+}
+
+#barra{
+	float: left;
+  width: 520px;
+  height: 6px;
+  margin-left: 5px;
+  margin-top: 5px;
+  padding: 2px;
+  border: 2px solid #E9931A;
+  background-color: #F8DEB8;
+}
+
+#barraProgreso{
+	width: 0px;
+  height: 6px;
+  background: #73480B;
+}
+
+
+
+
+
