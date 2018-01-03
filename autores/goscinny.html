@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title>René Goscinny</title>
+    <link href="../../_shared/demo.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../css/index_style.css">
+    <link href="../css/rejilla960fluido.css" rel="stylesheet" type="text/css">
+    <script src="../videos/reproduccion.js" type="application/x-javascript"></script>
+  </head>
+  <body onload="inicio();">
+    <header class="container_12"> <br>
+      <a href="https://www.uca.es"><img alt="Logo de la Universidad de Cádiz" src="../imagenes/logouca.png"></a>
+      <nav class="grid_12"> <canvas height="100px" width="900px" id="micanvas">
+          Problema con canvas</canvas>
+        <script type="text/javascript">
+    var canvas = document.getElementById("micanvas");
+    var contexto = canvas.getContext("2d");
+
+    titulo = "XXI Salón Internacional del Cómic de Cádiz";
+
+    contexto.strokeStyle="blue";
+    contexto.font = "bold 30px sans-serif";
+	contexto.fillStyle="black";
+    
+
+
+    contexto.textAlign = "left";
+    contexto.fillText(titulo,185,50);
+  </script>
+        
+        <img id="logo" style="width: 88px; height: 123px;" alt="" src="../imagenes/logo.svg">
+        <header> <a href="../home.html">
+            <div class="contenedor" id="uno"> <img class="icon" src="../imagenes/icon1.png">
+              <p class="texto">Inicio</p>
+            </div>
+          </a> <a href="../autores.html">
+            <div class="contenedor" id="dos"> <img class="icon" src="../imagenes/icon2.png">
+              <p class="texto">Autores destacados</p>
+            </div>
+          </a>
+          <a href="../documentacion.html">
+          <div class="contenedor" id="tres"> <img class="icon" src="../imagenes/icon3.png">
+            <p class="texto">Programación</p>
+          </div>
+          </a>
+          <a href="../contacto.html">
+            <div class="contenedor" id="cuatro"> <img class="icon" src="../imagenes/icon4.png">
+              <p class="texto">Contacto</p>
+              <p class="texto"><br>
+              </p>
+              <p class="texto"><br>
+              </p>
+            </div>
+          </a> </header>
+      </nav>
+    </header>
+    <div class="container_12">
+    <section class="grid_6" id="piel"> <video id="miPelicula" height="330" width="600"> <source
+
+          src="../videos/asterix.mp4">  <source
+
+          src="../videos/asterix.webm"> </video>
+      <nav>
+        <div id="botones"> <img src="../imagenes/play.png" id="botonPlay"> <img src="../imagenes/stop.png"
+
+            id="botonStop"> <img src="../imagenes/audiosi.png" id="botonAudioSi">
+        </div>
+        <div id="barra">
+          <div id="barraProgreso"> </div>
+        </div>
+      </nav>
+    </section>
+      <article class="grid_6">
+        <h1>René Goscinny</h1>
+        <p><br>
+        </p>
+        <p>René Goscinny (París, 14 de agosto de 1926 – ibídem, 5 de noviembre de 1977) fue un guionista y editor de historietas francés. Goscinny es uno de los autores franceses de mayor éxito en todo el mundo, con más de 500 millones de libros vendidos, traducidos a más de treinta idiomas.
+		</p>
+        <p><br>
+        </p>
+        <p> Fue cofundador y director de la revista semanal Pilote y ganó fama como guionista de varias historietas, trabajando con destacados dibujantes de Bélgica y Francia. Su creación de mayor éxito fueron las aventuras de Astérix el Galo, junto al dibujante Albert Uderzo en Pilote (1959). 
+		</p>
+        <p><br>
+        Otros destacados trabajos suyos son las series Lucky Luke, El pequeño Nicolás y el Gran Visir Iznogud.
+        </p>
+        <br>
+        <p>Fuente: Wikipedia.
+		</p>
+      </article>
+      
+      <div id="social" class="grid_5">
+        <ul>
+          <li>
+          	<a href="https://www.facebook.com/Palacio-de-Congresos-y-Exposiciones-de-C%C3%A1diz-1452262811757610/">
+			    <img id="Facebook" src="../imagenes/facebook.png" alt="Facebook" />
+			</a>
+			<a href="https://www.youtube.com/channel/UC0pH3ajG83UlUFSPK6u_0_Q">
+			    <img id="Youtube" src="../imagenes/youtube.png" alt="Youtube" />
+			</a>
+			<a href="https://twitter.com/congresoscadiz">
+			    <img id="Twitter" src="../imagenes/twitter.png" alt="Twitter" />
+			</a>
+          </li>
+        </ul>
+      </div>
+      <br class="clear">
+    </div>
+  </body>
+</html>
+
+
