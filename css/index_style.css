@@ -7,7 +7,7 @@
   padding-right: 0px;
   padding-bottom: 0px;
   padding-left: 0px;
-  font-family: Helvetica, Neue;
+  font-family: Arial, Georgia, Serif;;
 }
 
 nav ul {  
@@ -36,7 +36,7 @@ div#titulo {
 p#header {
   text-align: center;
   font-size: 2.5em;
-  color: #9a9a9a;
+  color: #8a8a8a;
 }
 
 p#subheader {
@@ -64,19 +64,20 @@ transition: height 0.4s ease 0s;
 }
 
 div#uno {
-  background-color: #d06503;
+  background-image: url("../imagenes/Backgrounds/spidermanBackground.png");
+
 }
 
 div#dos {
-  background-color: #e9931a;
+  background-image: url("../imagenes/Backgrounds/batmanBackground.png");
 }
 
 div#tres {
-  background-color: #1691be;
+  background-image: url("../imagenes/Backgrounds/ironBackground.png");
 }
 
 div#cuatro {
-  background-color: #166ba2;
+  background-image: url("../imagenes/Backgrounds/deadpoolBackground.png");
 }
 
 img.icon {
@@ -101,7 +102,7 @@ p.texto {
   color: white;
   text-align: center;
   padding-top: 10px;
-  opacity: 0.6;
+  opacity: 1;
 transition: padding-top 0.4s ease 0s;
 }
 

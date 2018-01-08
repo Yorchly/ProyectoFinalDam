@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title>Comics Destacados</title>
+    <link href="../_shared/demo.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/index_style.css">
+    <link href="css/rejilla960fluido.css" rel="stylesheet" type="text/css">
+  </head>
+ <body onload="inicio();">
+    <header class="container_12"> <br>
+      <img alt="Logo de la Universidad de Cádiz" src="imagenes/logouca.png">
+      <nav class="grid_12"> <canvas height="100px" width="1100px" id="micanvas">
+          Su navegador no soporta en elemento CANVAS</canvas>
+        <script type="text/javascript">
+    var canvas = document.getElementById("micanvas");
+    var contexto = canvas.getContext("2d");
+
+    texto = "XXI Salón Internacional del Cómic de Cádiz.";
+
+    contexto.font = "bold 30px Arial";
+
+    contexto.fillStyle="black";
+    contexto.strokeStyle="blue";
+
+
+    contexto.textAlign = "left";
+    contexto.fillText(texto, 250, 100);
+  </script>
+        <header> <a href="home.html">
+            <div class="contenedor" id="uno"> <img class="icon" src="imagenes/icon1.png">
+              <p class="texto">Inicio</p>
+            </div>
+          </a> <a href="videos.html">
+            <div class="contenedor" id="dos"> <img class="icon" src="imagenes/icon2.png">
+              <p class="texto">Videos</p>
+            </div>
+          </a> <a href="documentacion.html">
+            <div class="contenedor" id="tres"> <img class="icon" src="imagenes/icon3.png">
+              <p class="texto">Programación</p>
+            </div>
+          </a> <a href="contacto.html">
+            <div class="contenedor" id="cuatro"> <img class="icon" src="imagenes/icon4.png">
+              <p class="texto">Contacto</p>
+              <p class="texto"><br>
+              </p>
+              <p class="texto"><br>
+              </p>
+            </div>
+          </a> </header>
+      </nav>
+    </header>
+    <section>
+      <center>
+        <div id="cajas" class="container_12">
+          <h1>Géneros de comics.</h1>
+          <p><br>
+          </p>
+          <p><br>
+          </p>
+          <div class="grid_4"> <a href="novelasGraficas.html">
+              <h2> Novelas Gráficas </h2>
+            </a> </div>
+          <div class="grid_4"> <a href="superHeroes.html">
+              <h2> Superhéroes </h2>
+            </a> </div>
+          <div class="grid_4"> <a href="manga.html">
+              <h2> Manga </h2>
+            </a> </div>
+        </div>
+      </center>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+  </body>
+</html>
