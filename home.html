@@ -9,12 +9,12 @@
     <embed src="audios/cancion.mp3" hidden="true" loop="true">
     <script src="http://code.createjs.com/easeljs-0.7.0.min.js"></script>
 </head>
- <body onload="inicio();">
+ <body onload="inicializar();">
     <header class="container_12"> <br>
       <img alt="Logo de la Universidad de Cádiz" src="imagenes/logouca.png">
       <nav class="grid_12"> <canvas height="100px" width="1100px" id="micanvas">
           Su navegador no soporta en elemento CANVAS</canvas>
-        <script type="text/javascript">
+    <script type="text/javascript">
     var canvas = document.getElementById("micanvas");
     var contexto = canvas.getContext("2d");
 
@@ -29,6 +29,7 @@
 		contexto.textAlign = "left";
 		contexto.fillText(texto, 250, 100);
   </script>
+  <script src="js/juego.js" type="application/x-javascript"></script>
         <header> <a href="home.html">
             <div class="contenedor" id="uno"> <img class="icon" src="imagenes/icon1.png">
               <p class="texto">Inicio</p>
@@ -68,6 +69,9 @@
           </a> </div>
       </div>
       </center></section>
+    <secton>
+     <canvas id="escenario" width="1200px" height="500px">Este navegador no soporta Canvas</canvas>    
+    </secton>
     <section>
       <center>
       <div class="container_12">
