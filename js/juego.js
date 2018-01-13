@@ -48,13 +48,13 @@ function cargarPregunta()
 {
 	//stage = new createjs.Stage("escenario");
 	stage.enableMouseOver(10);
-	var pregunta = new createjs.Text("¿A qué cómic pertenece esta imagen?", "34px Arial", "#1726C6");
-	var resp1 = new createjs.Text("A) Batman: Dark Knight Returns", "34px Arial", "#497DF0");
-	var resp2 = new createjs.Text("B) Civil War", "34px Arial", "#497DF0");
-	var resp3 = new createjs.Text("C) Watchmen", "34px Arial", "#497DF0");
-	var resp4 = new createjs.Text("D) V de Vendetta", "34px Arial", "#497DF0");
-	var resp5 = new createjs.Text("E) Batman: Year One", "34px Arial", "#497DF0");
-	var resp6 = new createjs.Text("F) Batman: Killing Joke", "34px Arial", "#497DF0");
+	var pregunta = new createjs.Text("¿A qué cómic pertenece esta imagen?", "34px Arial", "blue");
+	var resp1 = new createjs.Text("A) Batman: Dark Knight Returns", "34px Arial", "yellow");
+	var resp2 = new createjs.Text("B) Civil War", "34px Arial", "yellow");
+	var resp3 = new createjs.Text("C) Watchmen", "34px Arial", "yellow");
+	var resp4 = new createjs.Text("D) V de Vendetta", "34px Arial", "yellow");
+	var resp5 = new createjs.Text("E) Batman: Year One", "34px Arial", "yellow");
+	var resp6 = new createjs.Text("F) Batman: Killing Joke", "34px Arial", "yellow");
 	pregunta.x=100;
 	pregunta.y=300;
 	resp1.x = 100;
