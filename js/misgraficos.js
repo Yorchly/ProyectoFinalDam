@@ -2,34 +2,34 @@
 
 var datosTarta = [
     {
-        value: 48,
+        value: 47,
         color:"maroon",
         highlight: "red",
-        label: "Marvel"
+        label: "Thriller"
+    },
+    {
+        value: 27,
+        color: "purple",
+        highlight: "fuchsia",
+        label: "Romance"
+    },
+    {
+        value: 26,
+        color: "green",
+        highlight: "lime",
+        label: "Ciencia Ficción"
+    },
+    {
+        value: 25,
+        color: "blue",
+        highlight: "navy",
+        label: "Fantasía"
     },
     {
         value: 23,
-        color: "purple",
-        highlight: "fuchsia",
-        label: "DC"
-    },
-    {
-        value: 9,
-        color: "green",
-        highlight: "lime",
-        label: "Image"
-    },
-    {
-        value: 5,
-        color: "blue",
-        highlight: "navy",
-        label: "IDW"
-    },
-    {
-        value: 3,
         color: "aqua",
         highlight: "teal",
-        label: "Dark Horse"
+        label: "Aventuras"
     },
     {
         value: 12,
@@ -62,31 +62,47 @@ var opcionesTarta ={
 
 
 var datosBarra = {
-    labels: ["Mortadelo y Filemón", "13 Rue del Percebe", "Zipi y Zape", "Rompetechos", "Botones Sacarino", "Super López"],
+    labels: ["Ciencia Ficción", "Clásicos", "Poesía", "Westerns", "Fantasía", "No-Ficción"],
     datasets: [
         {
-            label: "20Minutos",   
+            label: "America",   
             fillColor: "blue",
             strokeColor: "blue",
             highlightFill: "rgba(0,255,0,0.5)",
             highlightStroke: "rgba(0,0,0,0.5)",
-            data: [1482,1072,1028,936,928,777]
+            data: [1300,1700,450,350,1150,550]
         },
         {
-            label: "La voz de la ESI",   
+            label: "Europa",   
             fillColor: "red",
             strokeColor: "red",
             highlightFill: "rgba(0,255,0,0.5)",
             highlightStroke: "rgba(0,0,0,0.5)",
-            data: [1282,872,828,836,728,577]
+            data: [600,1150,200,250,750,650]
         },
         {
-            label: "Diario de la UCA",   
+            label: "Africa",   
             fillColor: "yellow",
             strokeColor: "yellow",
             highlightFill: "rgba(0,255,0,0.5)",
             highlightStroke: "rgba(0,0,0,0.5)",
-            data: [1382,972,928,936,828,677]
+            data: [250,425,160,120,300,300]
+        },
+        {
+            label: "Oceanía",   
+            fillColor: "green",
+            strokeColor: "green",
+            highlightFill: "rgba(0,255,0,0.5)",
+            highlightStroke: "rgba(0,0,0,0.5)",
+            data: [500,850,150,150,600,600]
+        },
+        {
+            label: "Asia",   
+            fillColor: "orange",
+            strokeColor: "orange",
+            highlightFill: "rgba(0,255,0,0.5)",
+            highlightStroke: "rgba(0,0,0,0.5)",
+            data: [750,1360,300,75,920,480]
         }
     ]
 };
