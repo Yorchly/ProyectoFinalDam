@@ -18,24 +18,24 @@
   <body background="./imagenes/fondo.jpg" onload="dibujar()">
     <header class="container_12"> <br>
       <a href="https://www.uca.es"><img alt="Logo de la Universidad de Cádiz" src="imagenes/logouca.png"></a>
-      <nav class="grid_12"> <canvas height="100px" width="900px" id="micanvas">
+      <nav class="grid_12"> <canvas height="100px" width="1100px" id="micanvas">
           Problema con canvas</canvas>
         <script type="text/javascript">
     var canvas = document.getElementById("micanvas");
     var contexto = canvas.getContext("2d");
 
-    titulo = "XXI Salón Internacional del Cómic de Cádiz";
+    titulo = "XXI Salón Internacional del Cómic de Cádiz.";
 
     contexto.strokeStyle="blue";
-    contexto.font = "bold 30px sans-serif";
+    contexto.font = "bold 30px Arial";
 	contexto.fillStyle="black";
     
 
 
     contexto.textAlign = "left";
-    contexto.fillText(titulo,185,50);
+    contexto.fillText(titulo,250,100);
   </script>
-        
+        <img id="logo" style="position:absolute; right: 250px; top: 20px; width: 88px; height: 123px;" alt="" src="imagenes/libro.svg"> 
         <img id="logo" style="width: 88px; height: 123px;" alt="" src="imagenes/logo.svg">
         <header> <a href="home.html">
             <div class="contenedor" id="uno"> <img class="icon" src="imagenes/icon1.png">
