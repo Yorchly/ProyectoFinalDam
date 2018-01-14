@@ -199,27 +199,27 @@ function fallo(event){
 
 function mostrarPuntuacion() {
 	stage = new createjs.Stage("escenario");
-	res1 = new createjs.Text("HAS ACERTADO " + puntuacion +" FOTOGRAFÍAS DE 6", "34px Arial", "#1726C6");
+	res1 = new createjs.Text("HAS ACERTADO " + puntuacion +" FOTOGRAFÍAS DE 6", "34px Arial", "#000000");
 	res1.x=60;
 	res1.y=100;
 
 	if(puntuacion < 2) {
-		res2 = new createjs.Text("¡SIGUE INTENTÁNDOLO!", "34px Arial", "#1726C6");
+		res2 = new createjs.Text("¡SIGUE INTENTÁNDOLO!", "34px Arial", "#000000");
 		res2.x = 175;
 		res2.y = 150;
 	}
 	if(puntuacion >= 2 && puntuacion < 4) {
-		res2 = new createjs.Text("¡NO ESTÁ NADA MAL!", "34px Arial", "#1726C6");
+		res2 = new createjs.Text("¡NO ESTÁ NADA MAL!", "34px Arial", "#000000");
 		res2.x = 200;
 		res2.y = 150;
 	}	
 	if(puntuacion >= 4 && puntuacion < 6) {
-		res2 = new createjs.Text("¡CASI LO TIENES!", "34px Arial", "#1726C6");
+		res2 = new createjs.Text("¡CASI LO TIENES!", "34px Arial", "#000000");
 		res2.x = 230;
 		res2.y = 150;
 	}
 	if(puntuacion == 6) { 
-		res2 = new createjs.Text("¡FELICIDADES, HAS ACERTADO TODAS!", "34px Arial", "#1726C6");
+		res2 = new createjs.Text("¡FELICIDADES, HAS ACERTADO TODAS!", "34px Arial", "#000000");
 		res2.x = 45;
 		res2.y = 150;	
 	}		
