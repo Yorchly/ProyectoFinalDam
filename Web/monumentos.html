@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="content-type">	
+	<title>Monumentos</title>
+    <link href="../_shared/demo.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/index_style.css">
+    <link href="css/rejilla960fluido.css" rel="stylesheet" type="text/css">
+    <embed src="audios/cancion.mp3" hidden="true" loop="true">
+    <script src="http://code.createjs.com/easeljs-0.7.0.min.js"></script>
+</head>
+ <body background="./imagenes/fondo.jpg" onload="inicializar()">
+    <header class="container_12"> <br>
+      <a href="https://www.uca.es"><img alt="Logo de la Universidad de Cádiz" src="./imagenes/logouca.png"></a>
+      <nav class="grid_12"> <canvas height="100px" width="1100px" id="micanvas">
+          Su navegador no soporta en elemento CANVAS</canvas>
+    <script type="text/javascript">
+    var canvas = document.getElementById("micanvas");
+    var contexto = canvas.getContext("2d");
+
+		texto = "XXI Salón Internacional del Cómic de Cádiz.";
+
+		contexto.font = "bold 30px Arial";
+
+		contexto.fillStyle="black";
+		contexto.strokeStyle="blue";
+
+
+		contexto.textAlign = "left";
+		contexto.fillText(texto, 250, 100);
+  </script>
+    <img id="logo" style="position:absolute; right: 250px; top: 20px; width: 88px; height: 123px;" alt="" src="imagenes/libro.svg"> 
+   <header> <a href="home.html">
+            <div class="contenedor" id="uno"> <img class="icon" src="imagenes/icon1.png">
+              <p class="texto">Inicio</p>
+            </div>
+          </a> 
+          <a href="estadisticas.html">
+            <div class="contenedor" id="dos"> <img class="icon" src="imagenes/icon2.png">
+              <p class="texto">Estadísticas</p>
+            </div>
+          </a> <a href="documentacion.html">
+            <div class="contenedor" id="tres"> <img class="icon" src="imagenes/icon3.png">
+              <p class="texto">Programación</p>
+            </div>
+          </a> <a href="contacto.html">
+            <div class="contenedor" id="cuatro"> <img class="icon" src="imagenes/icon4.png">
+              <p class="texto">Contacto</p>
+              <p class="texto"><br>
+              </p>
+              <p class="texto"><br>
+              </p>
+            </div>
+          </a> </header>
+
+      </nav>
+    </header>
+
+   <section><center>
+      <div id="cajas" class="container_12">
+          <form class="grid_3 prefix_3" action="dondeIr.html">
+            <input type="submit" value="Volver atrás" />
+        </form>
+        <div class="grid_3"> 
+          </div>
+          <form class="grid_3 prefix_1" action="gastronomia.html">
+            <input type="submit" value="Ir a Gastronomia" />
+        </form>
+      </div>
+      <br class="clear">
+      <br>
+      </center></section>
+
+    <section>
+    <div class="container_12">
+      <br class="clear">
+      <div class="grid_8"><h2>Torre Tavira</h2></div>
+      <br class="clear">
+      <div class="grid_3">
+        <img src="imagenes/lugares/tavira1.jpeg" width="200 px" height="250 px">
+      </div>
+      <div class="grid_3 prefix_1">
+          <img src="imagenes/lugares/tavira2.jpeg" width="200 px" height="250 px">
+      </div>
+      <div class="grid_3 prefix_1">
+        <img src="imagenes/lugares/tavira3.jpeg" width="200 px" height="250 px">
+      </div>
+      <br class="clear">
+      <br>
+      <br>
+      <div class="grid_4" align="justify">
+        La Torre Tavira es una torre vigía y el punto de mayor altura de la ciudad vieja de Cádiz, a 45 metros sobre el nivel del mar. Se encuentra situada en la Casa-Palacio de los Marqueses de Recaño (actual Conservatorio de Música de Cádiz), en la esquina entre las calles Marqués del Real Tesoro y Sacramento, y fue construida en el siglo XVIII en estilo barroco. Designada torre vigía oficial del puerto gaditano en 1778 por ser la de alta cota, recibe el nombre de su primer vigía, el teniente de fragata Antonio Tavira.
+        <br>
+        <br>
+        <h4>Dirección:</h4> Calle Marques del Real Tesoro 10<br>
+        <h4>CP:</h4> 11001<br>
+        <h4>Localidad:</h4> Cádiz, España<br>
+        <h4>Teléfono:</h4> +34 956 21 29 10<br>
+        <h4>Pagina web:</h4> <a href="http://www.torretavira.com/">www.torretavira.com</a><br>
+      </div>
+      <div class="grid_4"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.916326843877!2d-6.30045448471764!3d36.5320129800047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x63ddf6f71af43f30!2sTorre+Tavira!5e0!3m2!1ses!2ses!4v1515937395697" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+      <br class="clear">
+
+      <br>
+      <br>
+      <div class="grid_8"><h2>La viña</h2></div>
+      <br class="clear">
+      <div class="grid_3">
+        <img src="imagenes/lugares/laviña1.jpeg" width="200 px" height="250 px">
+      </div>
+      <div class="grid_3 prefix_1">
+          <img src="imagenes/lugares/laviña2.jpeg" width="200 px" height="250 px">
+      </div>
+      <div class="grid_3 prefix_1">
+        <img src="imagenes/lugares/laviña3.jpeg" width="200 px" height="250 px">
+      </div>
+      <br class="clear">
+      <br>
+      <br>
+      <div class="grid_4" align="justify">
+        La Viña es un barrio del centro histórico de la ciudad de Cádiz, España, perteneciente al distrito. Está situado en el extremo noroccidental de la ciudad y delimitado por las calles de la Rosa y La cruz Verde hacia el mar, que lo separan de los barrios de El Balón y San Juan respectivamente.
+
+        El nombre del barrio está relacionado con su pasado como lugar donde se cultivaba la vid. A partir del siglo XVIII comienza a edificarse la zona, debido al fuerte incremento demográfico experimentado en la ciudad a raíz del auge del comercio con América. Por su situación alejada del puerto, no despertó interés a los cargadores a Indias, por lo que fue habitado por clases populares dependientes de la actividad pesquera de la playa de La Caleta.
+        <br>
+        <br>
+        <h4>CP:</h4> 11002<br>
+        <h4>Localidad:</h4> Cádiz, España<br>
+      </div>
+      <div class="grid_4"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3206.067750375565!2d-6.306000185405422!3d36.528359840655426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0dd3e03478d75b%3A0x452f494bc899f3a7!2zTGEgVmnDsWEsIDExMDAyIEPDoWRpeg!5e0!3m2!1ses!2ses!4v1515939405979" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+      <br class="clear">
+
+      <br>
+      <br>
+      <div class="grid_8"><h2>Catedral de Cádiz</h2></div>
+      <br class="clear">
+      <div class="grid_3">
+        <img src="imagenes/lugares/catedral1.jpeg" width="200 px" height="250 px">
+      </div>
+      <div class="grid_3 prefix_1">
+          <img src="imagenes/lugares/catedral2.jpeg" width="200 px" height="250 px">
+      </div>
+      <div class="grid_3 prefix_1">
+        <img src="imagenes/lugares/catedral3.jpeg" width="200 px" height="250 px">
+      </div>
+      <br class="clear">
+      <br>
+      <br>
+      <div class="grid_4" align="justify">
+      La Santa y Apostólica Iglesia Catedral de Cádiz es la sede episcopal de la diócesis de Cádiz y Ceuta, en España. Es un edificio de estilo barroco y neoclásico. Se empezó a construir en 1722 y no se terminó hasta el 28 de noviembre de 1838.
+
+      Recibe el nombre de la "Santa Cruz sobre el Mar" o "Santa Cruz sobre las Aguas", aunque los gaditanos la denominan catedral Nueva en contraposición a la catedral Vieja, edificada en el siglo XVI sobre la antigua catedral gótica mandada construir por Alfonso X El Sabio, y que hoy cumple las funciones de iglesia parroquial.
+
+      Está situada en el centro histórico de Cádiz, casi al borde del mar, y es visible desde casi cualquier punto de la ciudad. Tiene horario de visitas tanto para el interior del templo como para la Torre del Reloj. La misma entrada a la catedral sirve para acceder al museo Catedralicio, situado en la plaza Fray Félix, junto a la catedral Vieja.
+        <br>
+        <br>
+        <h4>Dirección:</h4>Plaza Catedral s/n<br>
+        <h4>CP:</h4> 11005<br>
+        <h4>Localidad:</h4> Cádiz, España<br>
+        <h4>Teléfono:</h4> +34 608 09 04 24<br>
+        <h4>Pagina web:</h4> <a href="http://www.catedraldecadiz.com/">www.catedraldecadiz.com</a><br>
+      </div>
+      <div class="grid_4"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3206.0381372728166!2d-6.297275685405364!3d36.52907429061542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0dd3d8bb69a4d7%3A0x934a884ad7d0ac86!2sCatedral+de+C%C3%A1diz!5e0!3m2!1ses!2ses!4v1515939659529" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+      <br class="clear">
+
+      <br>
+      <br>
+      <div class="grid_8"><h2>Yacimiento arqueológico Gadir</h2></div>
+      <br class="clear">
+      <div class="grid_3">
+        <img src="imagenes/lugares/yacimiento1.jpeg" width="200 px" height="250 px">
+      </div>
+      <div class="grid_3 prefix_1">
+          <img src="imagenes/lugares/yacimiento2.jpeg" width="200 px" height="250 px">
+      </div>
+      <div class="grid_3 prefix_1">
+        <img src="imagenes/lugares/yacimiento3.jpeg" width="200 px" height="250 px">
+      </div>
+      <br class="clear">
+      <br>
+      <br>
+      <div class="grid_4" align="justify">
+        La ciudad de Gadir es uno de los asentamientos fenicios más antiguos de Occidente. Ya en el primer cuarto del primer milenio antes de Cristo se produjeron las primeras arribadas de tanteo por los fenicios de Tiro, fundando una colonia estable en una fecha que hasta los descubrimientos hallados bajo el Teatro del Títere eran difíciles de precisar.
+        La escasez de restos arquitectónicos de asentamientos fenicios en todo el mediterráneo, hacen del yacimiento arqueológico Gadir, un lugar imprescindible para descubrir las formas de vida de la desaparecida cultura fenicia.
+        <br>
+        <br>
+        <h4>Dirección:</h4>C/ San Miguel, 15<br>
+        <h4>CP:</h4> 11001<br>
+        <h4>Localidad:</h4> Cádiz, España<br>
+        <h4>Teléfono:</h4> +34 956 22 63 37<br>
+        <h4>Pagina web:</h4> <a href="http://turismo.cadiz.es/es/rutas-y-visitas-en-cadiz/yacimiento-arqueol%C3%B3gico-gadir">yacimiento arqueológico Gadir</a><br>
+      </div>
+      <div class="grid_4"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.9144030356397!2d-6.299986085405307!3d36.53205939044842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0dd161a67fb0b7%3A0x3b99c1c62d9677f!2sYacimiento+Arqueol%C3%B3gico+Gadir!5e0!3m2!1ses!2ses!4v1515939992575" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+      <br class="clear">
+    </div>
+    <br class="clear">
+  </section>
+  </body>
+</html>
