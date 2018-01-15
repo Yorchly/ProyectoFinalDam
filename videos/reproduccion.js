@@ -20,14 +20,14 @@ function playOPausa()
 	if(pelicula.paused || pelicula.ended)
 	{
 		pelicula.play();
-		play.src = "imagenes/pausa.png";
+		play.src = "../imagenes/pausa.png";
 		actualizarBarra = setInterval(actualizar, 500);
 	}
 
 	else
 	{
 		pelicula.pause();
-		play.src = "imagenes/play.png";
+		play.src = "../imagenes/play.png";
 		window.clearInterval(actualizarBarra);
 	}
 }
@@ -37,7 +37,7 @@ function actualizar()
 	if(pelicula.ended)
 	{
 		barraProgreso.style.width = "0px";
-		play.src = "imagenes/play.png";
+		play.src = "../imagenes/play.png";
 		window.clearInterval(actualizarBarra);
 	}
 	else
@@ -60,7 +60,7 @@ function clickEnBarra(evento)
 function stop()
 {
 	pelicula.pause();
-	play.src = "imagenes/play.png";
+	play.src = "../imagenes/play.png";
 	pelicula.currentTime = 0;
 	barraProgreso.style.width = "0px";
 }
@@ -70,12 +70,12 @@ function sonar()
 	if (!pelicula.muted)
 	{
 		pelicula.muted = true;
-		audio.src = "imagenes/audiono.png"
+		audio.src = "../imagenes/audiono.png"
 	}
 	else
 	{
 		pelicula.muted = false;
-		audio.src = "imagenes/audiosi.png";	
+		audio.src = "../imagenes/audiosi.png";	
 	}
 }
 
